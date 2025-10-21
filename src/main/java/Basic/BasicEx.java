@@ -1,0 +1,10 @@
+package Basic;
+
+public class BasicEx {
+
+	public static void main(String[] args) {
+		 System.out.print("Hello Wolrd");
+
+	}
+
+}
