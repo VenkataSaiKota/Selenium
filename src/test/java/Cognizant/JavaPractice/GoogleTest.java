@@ -14,20 +14,20 @@ public class GoogleTest {
 	@Test
     public void openGoogle() throws InterruptedException 
 	{
-    	WebDriver driver =new ChromeDriver();
-    	driver.get("https://training-support.net/webelements/drag-drop");
-    	Actions action=new Actions(driver);
-    	WebElement ball=driver.findElement(By.xpath("//img[@id='ball']"));
-    	WebElement left=driver.findElement(By.id("dropzone1"));
-    	WebElement right=driver.findElement(By.id("dropzone2"));
-//    	action.dragAndDrop(ball,left).release().perform();
+//    	WebDriver driver =new ChromeDriver();
+//    	driver.get("https://training-support.net/webelements/drag-drop");
+//    	Actions action=new Actions(driver);
+//    	WebElement ball=driver.findElement(By.xpath("//img[@id='ball']"));
+//    	WebElement left=driver.findElement(By.id("dropzone1"));
+//    	WebElement right=driver.findElement(By.id("dropzone2"));
+////    	action.dragAndDrop(ball,left).release().perform();
+////    	Thread.sleep(2000);
+////    	action.dragAndDrop(ball,right).release().perform();
+//    	 Action ac=action.clickAndHold(ball).moveToElement(left).build();
+//    	 ac.perform();
 //    	Thread.sleep(2000);
-//    	action.dragAndDrop(ball,right).release().perform();
-    	 Action ac=action.clickAndHold(ball).moveToElement(left).build();
-    	 ac.perform();
-    	Thread.sleep(2000);
-    	action.clickAndHold(ball).moveToElement(right).release().perform();
-    	
+//    	action.clickAndHold(ball).moveToElement(right).release().perform();
+//    	
     	//action.clickAndHold(ball);
 //    	int x1=left.getLocation().getX();
 //    	int y1=left.getLocation().getY();

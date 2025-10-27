@@ -51,6 +51,6 @@ public class AppTest {
 		      .keyUp(Keys.CONTROL)
 		      .click(submit)
 		      .perform();
-    	
+    	 driver.quit();
     }
 }
